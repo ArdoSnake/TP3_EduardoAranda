@@ -1,0 +1,60 @@
+ <!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Tabla de Operaciones</title>
+  <link rel="stylesheet" href="static/styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Operaciones Interactivas</h1>
+    <p class="lead">Presiona un botón para ingresar los valores y ver el resultado.</p>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <table>
+        <thead>
+          <tr>
+            <th class="columna-animada">OPERACIÓN</th>
+            <th class="columna-animada">DESCRIPCIÓN</th>
+            <th class="columna-animada">BOTONES</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Suma</td>
+            <td>Suma los 2 números ingresados</td>
+            <td><button class="calc" data-op="suma">Calcular</button></td>
+          </tr>
+          <tr>
+            <td>División</td>
+            <td>Divide el 1er número por el 2do ingresado</td>
+            <td><button class="calc" data-op="division">Calcular</button></td>
+          </tr>
+          <tr>
+            <td>Promedio</td>
+            <td>Promedia los 2 números ingresados</td>
+            <td><button class="calc" data-op="promedio">Calcular</button></td>
+          </tr>
+          <tr>
+            <td colspan="3" id="resultado" class="resultado">Resultado: —</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <nav class="botones">
+      <button class="btn animado" data-link="index.html">Página Principal</button>
+      <button class="btn animado" data-link="pagina 1.html">Ir a Galería</button>
+    </nav>
+  </main>
+
+  <footer>
+    <p>Eduardo Aranda - 2025</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

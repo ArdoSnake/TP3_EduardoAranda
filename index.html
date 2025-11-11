@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Página Principal</title>
+  <link rel="stylesheet" href="static/styles.css" />
+</head>
+<body>
+  <header>
+    <h1 id="titulo">Bienvenido a Mi Proyecto Web</h1>
+    <p class="lead">Este sitio incluye: una galería retro animada y una tabla de operaciones interactivas.</p>
+  </header>
+
+  <main class="container">
+    <section id="descripcion" class="card">
+      <h2>Contenido de las demás páginas</h2>
+      <ul>
+        <li><strong>pagina 1.html</strong> — Galería retro (Nokia, consolas, cómics)</li>
+        <li><strong>pagina 2.html</strong> — Tabla de operaciones (suma / división / promedio)</li>
+      </ul>
+    </section>
+
+    <nav class="botones">
+      <button class="btn animado" data-link="pagina 1.html">Ir a Galería</button>
+      <button class="btn animado" data-link="pagina 2.html">Ir a Tabla</button>
+      <button class="btn animado" data-link="index.html">Pagina Principal</button>
+    </nav>
+
+    <section class="card saludo-box">
+      <p id="saludo" class="saludo"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Eduardo Aranda - 2025</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
